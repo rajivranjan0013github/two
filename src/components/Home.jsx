@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <Box>
       <MyCarousel />
-      <Container maxW={"container.xl"} minH={"100vh"} p="16">
+      <Container maxW={"container.xl"} minH={"100vh"} p={["4", "16"]}>
         <Heading
           textTransform={"uppercase"}
           py="2"
@@ -75,25 +75,25 @@ const MyCarousel = () => (
     showThumbs={false}
     showArrows={false}
   >
-    <Box w={"full"} h={"100vh"}>
+    <Box w={"full"} h={["65vh", "100vh"]}>
       <Image src={img1} />
       <Heading bg={"blackAlpha.600"} color={"white"} {...headingOption}>
         Watch the future
       </Heading>
     </Box>
-    <Box w={"full"} h={"100vh"}>
+    <Box w={"full"} h={["65vh", "100vh"]}>
       <Image src={img2} />
       <Heading bg={"whiteAlpha.900"} color={"black"} {...headingOption}>
         future is gaming
       </Heading>
     </Box>
-    <Box w={"full"} h={"100vh"}>
+    <Box w={"full"} h={["65vh", "100vh"]}>
       <Image src={img3} />
       <Heading bg={"whiteAlpha.600"} color={"black"} {...headingOption}>
         gaming on console
       </Heading>
     </Box>
-    <Box w={"full"} h={"100vh"}>
+    <Box w={"full"} h={["65vh", "100vh"]}>
       <Image src={img4} />
       <Heading bg={"whiteAlpha.600"} color={"black"} {...headingOption}>
         night life is cool
